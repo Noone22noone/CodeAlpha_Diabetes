@@ -54,14 +54,16 @@ This project is part of my **CodeAlpha Machine Learning Internship**, where I de
 ---
 
 ## 📈 Results
-| Classifier           | Accuracy | Precision | Recall | F1-score |
-|----------------------|----------|-----------|--------|----------|
-| Logistic Regression  | ~0.77    | ~0.73     | ~0.68  | ~0.70    |
-| SVM (Linear)         | ~0.76    | ~0.71     | ~0.66  | ~0.68    |
-| Random Forest        | ~0.79    | ~0.74     | ~0.71  | ~0.72    |
-| XGBoost              | ~0.82    | ~0.77     | ~0.74  | ~0.75    |
+Here are the performance scores of each model:
 
-👉 **XGBoost achieved the best overall performance.**
+| Classifier           | Accuracy | Precision | Recall  | F1-score |
+|----------------------|----------|-----------|---------|----------|
+| **XGBoost**          | 0.7338   | 0.6275    | 0.5926  | 0.6095   |
+| **Random Forest**    | 0.7403   | 0.6667    | 0.5185  | 0.5833   |
+| **SVM (Linear)**     | 0.7078   | 0.6000    | 0.5000  | 0.5455   |
+| **Logistic Regression** | 0.7013 | 0.5870    | 0.5000  | 0.5400   |
+
+👉 **XGBoost achieved the highest F1-score, making it the most balanced model in this experiment.**
 
 ---
 
@@ -69,6 +71,7 @@ This project is part of my **CodeAlpha Machine Learning Internship**, where I de
 - Correlation heatmap  
 - Boxplots of each feature  
 - Confusion matrices for each model  
+- Results comparison table (above)
 
 ---
 
